@@ -1,0 +1,163 @@
+body
+{
+    background-image: url(../Images/orion-nebula-11107_1280-2.jpg);
+    color: white;
+
+}
+
+.container-0
+{
+    /* border: 1px solid rgb(240, 12, 24); */
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+
+i{
+    padding:20px;
+    color: white;
+    font-size: 70px;   
+    border:1px solid white;
+    border-radius: 50px;
+    margin: 10px;
+    background-color: indigo;
+}
+
+#audio,#audio-2{
+    display: none;
+}
+
+.link{
+    /* border: 1px solid hotpink; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a{
+    
+    /* border: 1px solid yellow; */
+    width: 15%;
+    text-decoration: none;
+}
+
+
+i:hover{
+    cursor: all-scroll;
+    box-shadow: 6px 6px 20px rgb(197, 193, 193);
+}
+
+.container-1
+{
+    display: flex;
+    align-items:flex-end;
+    height: 30vh;
+    /* border: 1px solid yellowgreen; */
+}
+
+.main-box
+{
+    border:1px solid white;
+    border-radius: 25px;
+    width: 100%;
+    background-color: indigo;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.container-2
+{
+    display: flex;
+    align-items:center;
+    height: 30vh;
+    /* border: 1px solid orange; */
+}
+
+.four-box
+{
+    display: block;
+    /* border: 1px solid blueviolet; */
+    width: 100%;
+    padding: 10px;
+}
+
+.four-box-1{
+    /* border: 1px solid magenta; */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.four-box-2{
+    /* border: 1px solid magenta; */
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+#box-1, #box-2{
+    border: 1px solid white;
+    border-radius: 25px;
+    width:100%;
+    height: 6vh;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background-color: indigo;
+}
+
+
+
+#line-1{
+    border: 1px solid white;
+    height: .1vh;
+    width: 10%;
+    background-color: white;
+}
+
+
+#box-3, #box-4{
+    border: 1px solid white;
+    border-radius: 25px;
+    width:100%;
+    height: 6vh;
+    display: inline;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background-color:indigo;
+
+}
+
+#line-2
+{
+    border: 1px solid white;
+    height: .1vh;
+    width: 10%;
+    background-color: white;
+}
+
+#box-1:hover, #box-2:hover, #box-3:hover, #box-4:hover{
+    cursor: all-scroll;
+    box-shadow: 4px 4px 20px rgb(197, 193, 193);
+   
+}
+
+
+p{
+    font-size: 20px;
+    /* border: 1px solid green; */
+    width: 100%;
+}
+
